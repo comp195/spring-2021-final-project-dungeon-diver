@@ -16,6 +16,8 @@ You play as a ... who bravely enters a dungeon in order to ...
 
 [Requirements Analysis Document](https://github.com/comp195/spring-2021-final-project-dungeon-diver/blob/10221fb0f56becbd577f59fcc5b049f6d617ba6d/Dungeon%20Diver%20-%20Requirements%20Analysis%20Document.pdf)
 
+[Kanban](https://github.com/comp195/spring-2021-final-project-dungeon-diver/projects/1)
+
 ## Notes
 
 * This project will be made in Unity.
