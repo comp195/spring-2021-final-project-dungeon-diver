@@ -15,6 +15,12 @@ public class aim : MonoBehaviour
     // Update is called once per frame
     // Update is not a good place to use for physics as framerate constantly changes
     // use fixed Update function (shown after the update function)
+
+    private void Awake()
+    {
+       // Cursor.visible = false;
+    }
+
     void Update()
     {
         //input for movement
