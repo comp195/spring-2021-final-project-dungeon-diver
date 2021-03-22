@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed = 8f;
 
     public Rigidbody2D rb;
     public Camera cam;
+    public Animator animator;
 
     Vector2 movement;
     Vector2 mousePos;
+
+    public bool faceRight = true;
 
     // Update is called once per frame
     // Update is not a good place to use for physics as framerate constantly changes
@@ -23,7 +26,17 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");    //(i.e. pressing right arrow returns 1)
         movement.y = Input.GetAxisRaw("Vertical");
 
+
+        if (movement.x == 1)
+            animator.SetBool("faceRight", true);
+        else if (movement.x == -1)
+            animator.SetBool("faceRight", false);
+
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+       
 
     }
 
