@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 6f;
+    public float moveSpeed = 5f;
 
     public Rigidbody2D rb;
     public Camera cam;
@@ -27,9 +27,14 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
 
 
-        if (movement.x == 1)
+        //if (movement.x == 1)
+        //    animator.SetBool("faceRight", true);
+        //else if (movement.x == -1)
+        //    animator.SetBool("faceRight", false);
+
+        if (rb.position.x < mousePos.x)
             animator.SetBool("faceRight", true);
-        else if (movement.x == -1)
+        else if (rb.position.x > mousePos.x)
             animator.SetBool("faceRight", false);
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
@@ -37,7 +42,6 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Speed", movement.sqrMagnitude);
        
-
     }
 
     //by default this function is called 50 times a second
