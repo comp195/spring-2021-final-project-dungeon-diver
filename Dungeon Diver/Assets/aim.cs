@@ -18,7 +18,7 @@ public class aim : MonoBehaviour
 
     private void Awake()
     {
-       // Cursor.visible = false;
+
     }
 
     void Update()
