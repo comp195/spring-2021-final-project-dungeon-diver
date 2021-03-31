@@ -16,7 +16,7 @@ public class roomSpawner : MonoBehaviour
     private int rand;
     private int roomArrLength = 8;
 
-    public bool spawned = false;
+    private bool spawned = false;
     public int numRooms = 5;
     public int index = 0;
 
@@ -29,28 +29,29 @@ public class roomSpawner : MonoBehaviour
 
     void Spawn()
     {
-        if (spawned == false && index != numRooms)             // make sure that the rooms are not already spawned in
+        if (spawned == false)             // make sure that the rooms are not already spawned in
         {
             if (openingDirection == 1)          // spawn room with bottom door
             {
                 rand = Random.Range(0, roomArrLength);
                 Instantiate(templates.bottomRooms[rand], transform.position, templates.bottomRooms[rand].transform.rotation);
+                
             }
-            else if (openingDirection == 2)     // spawn room with top door
+            if (openingDirection == 2)     // spawn room with top door
             {
                 rand = Random.Range(0, roomArrLength);
                 Instantiate(templates.topRooms[rand], transform.position, templates.topRooms[rand].transform.rotation);
             }
-            //else if (openingDirection == 3)     // spawn room with left door
-            //{
-            //    rand = Random.Range(0, roomArrLength);
-            //    Instantiate(templates.leftRooms[rand], transform.position, templates.leftRooms[rand].transform.rotation);
-            //}
-            //else if (openingDirection == 4)     // spawn room with right door
-            //{
-            //    rand = Random.Range(0, roomArrLength);
-            //    Instantiate(templates.rightRooms[rand], transform.position, templates.rightRooms[rand].transform.rotation);
-            //}
+            if (openingDirection == 3)     // spawn room with left door
+            {
+                rand = Random.Range(0, roomArrLength);
+                Instantiate(templates.leftRooms[rand], transform.position, templates.leftRooms[rand].transform.rotation);
+            }
+            if (openingDirection == 4)     // spawn room with left door
+            {
+                rand = Random.Range(0, roomArrLength);
+                Instantiate(templates.rightRooms[rand], transform.position, templates.rightRooms[rand].transform.rotation);
+            }
             spawned = true;
             index++;
             print(index);
@@ -61,7 +62,6 @@ public class roomSpawner : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-         
         if (collision.CompareTag("spawnPoint"))         // so that rooms don't spawn on top of each other
         {
             if (collision.GetComponent<roomSpawner>().spawned == false && spawned == false)
