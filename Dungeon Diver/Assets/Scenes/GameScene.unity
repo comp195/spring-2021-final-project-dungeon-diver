@@ -653,9 +653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65cfeece52b41cd42b27ba54ed08b97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Parent: {fileID: 873994093}
-  Obj: {fileID: 1080625176}
-  Radius: 4.5
+  target: {fileID: 873994093}
 --- !u!81 &80125235
 AudioListener:
   m_ObjectHideFlags: 0
@@ -691,7 +689,7 @@ Camera:
   far clip plane: 5000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 30
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
