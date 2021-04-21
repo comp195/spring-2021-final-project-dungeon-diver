@@ -653,9 +653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65cfeece52b41cd42b27ba54ed08b97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Parent: {fileID: 873994093}
-  Obj: {fileID: 1080625176}
-  Radius: 4.5
+  target: {fileID: 873994093}
 --- !u!81 &80125235
 AudioListener:
   m_ObjectHideFlags: 0
@@ -5572,12 +5570,12 @@ PrefabInstance:
     - target: {fileID: 3618703939753719725, guid: e88f56db8438af342bd0a70f979440a1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3618703939753719725, guid: e88f56db8438af342bd0a70f979440a1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.54
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3618703939753719725, guid: e88f56db8438af342bd0a70f979440a1,
         type: 3}
@@ -17241,6 +17239,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[3].Array.data[9].x
       value: -1.2499942
+      objectReference: {fileID: 0}
+    - target: {fileID: 5914812106200282395, guid: 860b79f96c217924aa0237ddf6bbc4c9,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 941973414813383039, guid: 860b79f96c217924aa0237ddf6bbc4c9,
+        type: 3}
+      propertyPath: m_UseFullKinematicContacts
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 860b79f96c217924aa0237ddf6bbc4c9, type: 3}

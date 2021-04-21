@@ -46,9 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 0
-  spawned: 0
-  numRooms: 5
-  index: 0
+  waitTime: 4
 --- !u!61 &7025559429568236569
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1557,9 +1555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 4
-  spawned: 0
-  numRooms: 5
-  index: 0
+  waitTime: 4
 --- !u!61 &941973413782496544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2766,9 +2762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 2
-  spawned: 0
-  numRooms: 5
-  index: 0
+  waitTime: 4
 --- !u!61 &941973414446023058
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3389,9 +3383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 3
-  spawned: 0
-  numRooms: 5
-  index: 0
+  waitTime: 4
 --- !u!61 &941973414813383038
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3485,9 +3477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 1
-  spawned: 0
-  numRooms: 5
-  index: 0
+  waitTime: 4
 --- !u!61 &941973414822593994
 BoxCollider2D:
   m_ObjectHideFlags: 0
