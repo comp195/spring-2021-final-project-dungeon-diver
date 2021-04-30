@@ -689,7 +689,7 @@ Camera:
   far clip plane: 5000
   field of view: 60
   orthographic: 1
-  orthographic size: 20
+  orthographic size: 30
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6936,42 +6936,77 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bottomRooms:
   - {fileID: 3402708166053891863, guid: 99677e2a5e777504b937ca85e556d0fa, type: 3}
+  - {fileID: 3402708166053891863, guid: 99677e2a5e777504b937ca85e556d0fa, type: 3}
+  - {fileID: 3402708166053891863, guid: 99677e2a5e777504b937ca85e556d0fa, type: 3}
+  - {fileID: 3402708166053891863, guid: 99677e2a5e777504b937ca85e556d0fa, type: 3}
+  - {fileID: 3402708166053891863, guid: 99677e2a5e777504b937ca85e556d0fa, type: 3}
+  - {fileID: 3402708166053891863, guid: 99677e2a5e777504b937ca85e556d0fa, type: 3}
+  - {fileID: 3402708166053891863, guid: 99677e2a5e777504b937ca85e556d0fa, type: 3}
   - {fileID: 6573017190470394489, guid: aa3907de5e4f2c84cb8ce5189ba196d8, type: 3}
+  - {fileID: 6573017190470394489, guid: aa3907de5e4f2c84cb8ce5189ba196d8, type: 3}
+  - {fileID: 2793450177645929753, guid: 4ff6c5f64fd1a8d4f83583365fd7d7cb, type: 3}
   - {fileID: 2793450177645929753, guid: 4ff6c5f64fd1a8d4f83583365fd7d7cb, type: 3}
   - {fileID: 8370993342575115149, guid: 2ee7cef380f80ab46b3a6dad236fb9a5, type: 3}
   - {fileID: 7637338788536547267, guid: 7c4dfc3006cdeeb41a7f9da78fdd309d, type: 3}
+  - {fileID: 7637338788536547267, guid: 7c4dfc3006cdeeb41a7f9da78fdd309d, type: 3}
   - {fileID: 3341032160034740203, guid: f8a6fdfe49147c64e840afefe59fc1e0, type: 3}
   - {fileID: 2673136299843538250, guid: 6cd53f5aea4cc6844a4da502063580d0, type: 3}
-  - {fileID: 941973414069963549, guid: 860b79f96c217924aa0237ddf6bbc4c9, type: 3}
   topRooms:
   - {fileID: 8627001861694986212, guid: 0ed4d6d4b083f1b41b18385779536330, type: 3}
+  - {fileID: 8627001861694986212, guid: 0ed4d6d4b083f1b41b18385779536330, type: 3}
+  - {fileID: 8627001861694986212, guid: 0ed4d6d4b083f1b41b18385779536330, type: 3}
+  - {fileID: 8627001861694986212, guid: 0ed4d6d4b083f1b41b18385779536330, type: 3}
+  - {fileID: 8627001861694986212, guid: 0ed4d6d4b083f1b41b18385779536330, type: 3}
+  - {fileID: 8627001861694986212, guid: 0ed4d6d4b083f1b41b18385779536330, type: 3}
+  - {fileID: 8627001861694986212, guid: 0ed4d6d4b083f1b41b18385779536330, type: 3}
+  - {fileID: 7637338788536547267, guid: 7c4dfc3006cdeeb41a7f9da78fdd309d, type: 3}
   - {fileID: 7637338788536547267, guid: 7c4dfc3006cdeeb41a7f9da78fdd309d, type: 3}
   - {fileID: 3341032160034740203, guid: f8a6fdfe49147c64e840afefe59fc1e0, type: 3}
   - {fileID: 6204215207340970231, guid: c255e82d013274c4283ed0199cc1072d, type: 3}
+  - {fileID: 6204215207340970231, guid: c255e82d013274c4283ed0199cc1072d, type: 3}
+  - {fileID: 13446669673656306, guid: ab9edc0d1307b2642b728f3e1e771ae5, type: 3}
   - {fileID: 13446669673656306, guid: ab9edc0d1307b2642b728f3e1e771ae5, type: 3}
   - {fileID: 2673136299843538250, guid: 6cd53f5aea4cc6844a4da502063580d0, type: 3}
-  - {fileID: 941973414069963549, guid: 860b79f96c217924aa0237ddf6bbc4c9, type: 3}
   - {fileID: 3738715668518859528, guid: 573b650c8ccbd064caabfc19bc0bb8ed, type: 3}
   leftRooms:
   - {fileID: 6573017190470394489, guid: aa3907de5e4f2c84cb8ce5189ba196d8, type: 3}
+  - {fileID: 6573017190470394489, guid: aa3907de5e4f2c84cb8ce5189ba196d8, type: 3}
+  - {fileID: 1217258607083791916, guid: 4f3e54ff043ebaa48bebca6b69aa7745, type: 3}
+  - {fileID: 1217258607083791916, guid: 4f3e54ff043ebaa48bebca6b69aa7745, type: 3}
+  - {fileID: 1217258607083791916, guid: 4f3e54ff043ebaa48bebca6b69aa7745, type: 3}
+  - {fileID: 1217258607083791916, guid: 4f3e54ff043ebaa48bebca6b69aa7745, type: 3}
+  - {fileID: 1217258607083791916, guid: 4f3e54ff043ebaa48bebca6b69aa7745, type: 3}
+  - {fileID: 1217258607083791916, guid: 4f3e54ff043ebaa48bebca6b69aa7745, type: 3}
   - {fileID: 1217258607083791916, guid: 4f3e54ff043ebaa48bebca6b69aa7745, type: 3}
   - {fileID: 8370993342575115149, guid: 2ee7cef380f80ab46b3a6dad236fb9a5, type: 3}
   - {fileID: 1325260124601829000, guid: 2c75bb73dbec7a84bba84aa80d55d1ee, type: 3}
+  - {fileID: 1325260124601829000, guid: 2c75bb73dbec7a84bba84aa80d55d1ee, type: 3}
   - {fileID: 3341032160034740203, guid: f8a6fdfe49147c64e840afefe59fc1e0, type: 3}
   - {fileID: 6204215207340970231, guid: c255e82d013274c4283ed0199cc1072d, type: 3}
-  - {fileID: 941973414069963549, guid: 860b79f96c217924aa0237ddf6bbc4c9, type: 3}
+  - {fileID: 6204215207340970231, guid: c255e82d013274c4283ed0199cc1072d, type: 3}
   - {fileID: 3738715668518859528, guid: 573b650c8ccbd064caabfc19bc0bb8ed, type: 3}
   rightRooms:
   - {fileID: 6309745884873192788, guid: be4562dfc98422349923700bb7586657, type: 3}
+  - {fileID: 6309745884873192788, guid: be4562dfc98422349923700bb7586657, type: 3}
+  - {fileID: 6309745884873192788, guid: be4562dfc98422349923700bb7586657, type: 3}
+  - {fileID: 6309745884873192788, guid: be4562dfc98422349923700bb7586657, type: 3}
+  - {fileID: 6309745884873192788, guid: be4562dfc98422349923700bb7586657, type: 3}
+  - {fileID: 6309745884873192788, guid: be4562dfc98422349923700bb7586657, type: 3}
+  - {fileID: 6309745884873192788, guid: be4562dfc98422349923700bb7586657, type: 3}
+  - {fileID: 2793450177645929753, guid: 4ff6c5f64fd1a8d4f83583365fd7d7cb, type: 3}
   - {fileID: 2793450177645929753, guid: 4ff6c5f64fd1a8d4f83583365fd7d7cb, type: 3}
   - {fileID: 8370993342575115149, guid: 2ee7cef380f80ab46b3a6dad236fb9a5, type: 3}
   - {fileID: 1325260124601829000, guid: 2c75bb73dbec7a84bba84aa80d55d1ee, type: 3}
+  - {fileID: 1325260124601829000, guid: 2c75bb73dbec7a84bba84aa80d55d1ee, type: 3}
+  - {fileID: 13446669673656306, guid: ab9edc0d1307b2642b728f3e1e771ae5, type: 3}
   - {fileID: 13446669673656306, guid: ab9edc0d1307b2642b728f3e1e771ae5, type: 3}
   - {fileID: 2673136299843538250, guid: 6cd53f5aea4cc6844a4da502063580d0, type: 3}
-  - {fileID: 941973414069963549, guid: 860b79f96c217924aa0237ddf6bbc4c9, type: 3}
   - {fileID: 3738715668518859528, guid: 573b650c8ccbd064caabfc19bc0bb8ed, type: 3}
   closeRooms: {fileID: 8270003360081020222, guid: 32ed72c88bab1b340993c925cc7ccc25,
     type: 3}
+  rooms: []
+  waitTime: 3
+  boss: {fileID: 0}
 --- !u!114 &911493559
 MonoBehaviour:
   m_ObjectHideFlags: 0

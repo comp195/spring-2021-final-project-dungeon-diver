@@ -1152,6 +1152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6204215207340970229}
   - component: {fileID: 6204215207340970228}
+  - component: {fileID: 2237080565456917752}
   m_Layer: 0
   m_Name: TL
   m_TagString: Untagged
@@ -1193,6 +1194,18 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!114 &2237080565456917752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6204215207340970231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33cd831a019cfb14fb6c19cd1e29e3e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6204215207981353513
 GameObject:
   m_ObjectHideFlags: 0

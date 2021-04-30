@@ -23,7 +23,9 @@ public class roomSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(gameObject, waitTime);
+        Destroy(gameObject, waitTime);      //this destroys the gameobject after the waitTime (4f). This might be the reason why 
+                                            //the walls would disappear (when I tried to fix the rooms with doors leading to a wall)
+
         templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<roomTemplates>();
         roomArrLength = templates.leftRooms.Length;
         Invoke("Spawn", 0.1f);             // call the Spawn() function after 0.1 seconds
