@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 1746899163146276956}
   - component: {fileID: 1746899163146276945}
   - component: {fileID: 3028111681861543921}
-  - component: {fileID: 7496275853055825761}
+  - component: {fileID: 999949744091900397}
   m_Layer: 0
   m_Name: Enemy(Skeleton)
-  m_TagString: Player
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -151,7 +151,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6870749, y: 0.34984398}
   m_EdgeRadius: 0
---- !u!114 &7496275853055825761
+--- !u!114 &999949744091900397
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,12 +160,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1746899163146276958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4ceeee11a978f46a0e002bb68aea46, type: 3}
+  m_Script: {fileID: 11500000, guid: 97d5c8567a86c254bb3b244fbcec8775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
   rb: {fileID: 1746899163146276956}
   animator: {fileID: 1746899163146276945}
+  moveSpeed: 3
   faceRight: 1
-  timeBetweenMove: 2
-  timeToMove: 1
+  chasing: 0
+  moving: 0
+  timeBetweenMove: 1
+  timeToMove: 0.75
+  moveDirection: {x: 0, y: 0, z: 0}
+  health: 2
+  enemyName: Skeleton
+  baseAttack: 1
+  target: {fileID: 0}
+  chaseRadius: 4
+  attackRadius: 1
+  homePos: {fileID: 0}

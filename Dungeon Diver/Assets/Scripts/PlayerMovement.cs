@@ -15,6 +15,11 @@ public class PlayerMovement : MonoBehaviour
 
     public bool faceRight = true;
 
+    private void Start()
+    {
+        cam = Camera.main;
+    }
+
     // Update is called once per frame
     // Update is not a good place to use for physics as framerate constantly changes
     // use fixed Update function (shown after the update function)
@@ -26,11 +31,15 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");    //(i.e. pressing right arrow returns 1)
         movement.y = Input.GetAxisRaw("Vertical");
 
-
-        //if (movement.x == 1)
-        //    animator.SetBool("faceRight", true);
-        //else if (movement.x == -1)
-        //    animator.SetBool("faceRight", false);
+        //left click = 0, right click = 1, middle click = 2
+        if (Input.GetMouseButtonDown(0))
+        {
+            animator.SetBool("Attacking", true);
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            animator.SetBool("Attacking", false);
+        }
 
         if (rb.position.x < mousePos.x)
             animator.SetBool("faceRight", true);
@@ -39,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
-        animator.SetFloat("Horizontal", movement.x);
+        //animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Speed", movement.sqrMagnitude);
        
     }

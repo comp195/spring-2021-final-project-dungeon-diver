@@ -9,6 +9,11 @@ public class cameraMovement : MonoBehaviour
     private Vector3 velocity;
     private float dampTime = 0.0f;
 
+    private void Start()
+    {
+        target = GameObject.FindWithTag("Player").transform;
+    }
+
     // Start is called before the first frame update
     void Update()
     {
