@@ -17,7 +17,7 @@ public class roomSpawner : MonoBehaviour
     private int roomArrLength = 0;
     public float waitTime = 4f;
     public int numRooms = 5;
-
+    
     private bool spawned = false;
 
     // Start is called before the first frame update
@@ -38,6 +38,7 @@ public class roomSpawner : MonoBehaviour
                 rand = Random.Range(0, roomArrLength);
                 Instantiate(templates.bottomRooms[rand], transform.position, templates.bottomRooms[rand].transform.rotation);
                 print(templates.bottomRooms[rand].name);
+                
             }
             else if (openingDirection == 2)     // spawn room with top door
             {
@@ -73,6 +74,12 @@ public class roomSpawner : MonoBehaviour
                 Instantiate(templates.closeRooms, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
+
+            if (other.GetComponent<roomSpawner>().spawned == false)
+            {
+                print("false");
+            }
+            
             spawned = true;
             //print("OUCH");
         }
