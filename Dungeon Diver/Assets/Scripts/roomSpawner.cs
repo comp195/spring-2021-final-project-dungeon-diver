@@ -14,8 +14,9 @@ public class roomSpawner : MonoBehaviour
 
     private roomTemplates templates;
     private int rand;
-    private int roomArrLength = 8;
+    private int roomArrLength = 0;
     public float waitTime = 4f;
+    public int numRooms = 5;
 
     private bool spawned = false;
 
@@ -24,6 +25,7 @@ public class roomSpawner : MonoBehaviour
     {
         Destroy(gameObject, waitTime);
         templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<roomTemplates>();
+        roomArrLength = templates.leftRooms.Length;
         Invoke("Spawn", 0.1f);             // call the Spawn() function after 0.1 seconds
     }
 
@@ -35,24 +37,28 @@ public class roomSpawner : MonoBehaviour
             {
                 rand = Random.Range(0, roomArrLength);
                 Instantiate(templates.bottomRooms[rand], transform.position, templates.bottomRooms[rand].transform.rotation);
-                
+                print(templates.bottomRooms[rand].name);
             }
             else if (openingDirection == 2)     // spawn room with top door
             {
                 rand = Random.Range(0, roomArrLength);
                 Instantiate(templates.topRooms[rand], transform.position, templates.topRooms[rand].transform.rotation);
+                print(templates.topRooms[rand].name);
             }
             else if (openingDirection == 3)     // spawn room with left door
             {
                 rand = Random.Range(0, roomArrLength);
                 Instantiate(templates.leftRooms[rand], transform.position, templates.leftRooms[rand].transform.rotation);
+                print(templates.leftRooms[rand].name);
             }
-            //else if (openingDirection == 4)     // spawn room with left door
-            //{
-            //    rand = Random.Range(0, roomArrLength);
-            //    Instantiate(templates.rightRooms[rand], transform.position, templates.rightRooms[rand].transform.rotation);
-            //}
+            else if (openingDirection == 4)     // spawn room with left door
+            {
+                rand = Random.Range(0, roomArrLength);
+                Instantiate(templates.rightRooms[rand], transform.position, templates.rightRooms[rand].transform.rotation);
+                print(templates.rightRooms[rand].name);
+            }
             spawned = true;
+            //print("spawned");
         }
         
     }
@@ -64,11 +70,11 @@ public class roomSpawner : MonoBehaviour
             if (other.GetComponent<roomSpawner>().spawned == false && spawned == false)
             {
                 // spawn walls blocking off any openings
-                //Instantiate(templates.closeRooms, transform.position, Quaternion.identity);
+                Instantiate(templates.closeRooms, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
             spawned = true;
-            print("OUCH");
+            //print("OUCH");
         }
     }
 }
