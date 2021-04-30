@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7920817507384258083}
   m_Layer: 0
   m_Name: Collision 2
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2701,6 +2701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33cd831a019cfb14fb6c19cd1e29e3e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  templates: {fileID: 0}
 --- !u!1 &2673136300542711700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,7 +2718,7 @@ GameObject:
   - component: {fileID: 2673136300542711698}
   m_Layer: 0
   m_Name: Collision
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
