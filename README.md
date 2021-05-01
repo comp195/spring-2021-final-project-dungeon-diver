@@ -10,7 +10,7 @@ You play as a ... who bravely enters a dungeon in order to ...
 
 ## Links
 
-[Gantt Chart](https://github.com/comp195/spring-2021-final-project-dungeon-diver/blob/838bdad6a36e45250b20df78fb08b9ffbb104fc9/DungeonDiver_GanttChart.pdf)
+[Gantt Chart](https://github.com/comp195/spring-2021-final-project-dungeon-diver/blob/0d4b3124ecc9657e958ffb2c18e2905b7931285c/DungeonDiver_GanttChart.pdf)
 
 [System Design Document](https://github.com/comp195/spring-2021-final-project-dungeon-diver/blob/c5a767f773979b5b45fdc8d9042d21d881fd85c2/Dungeon%20Diver%20-%20System%20Design%20Document.pdf)
 
