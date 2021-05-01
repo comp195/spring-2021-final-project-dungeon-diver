@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class enemy : MonoBehaviour
 {
@@ -54,6 +55,12 @@ public class enemy : MonoBehaviour
         {
             this.gameObject.SetActive(false);
             //Destroy(this.gameObject);         //maybe not call use code above instead?
+
+            if (this.gameObject.name.Contains("Boss"))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            }
+
         }
     }
 

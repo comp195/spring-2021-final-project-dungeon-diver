@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Buttons
   - Text
+  - Boss
   layers:
   - Default
   - TransparentFX
