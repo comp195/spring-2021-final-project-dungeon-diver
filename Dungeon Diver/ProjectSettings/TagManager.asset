@@ -8,6 +8,8 @@ TagManager:
   - Rooms
   - wall
   - Enemy
+  - Buttons
+  - Text
   layers:
   - Default
   - TransparentFX
