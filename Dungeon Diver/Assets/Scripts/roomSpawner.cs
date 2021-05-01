@@ -72,10 +72,10 @@ public class roomSpawner : MonoBehaviour
                 Destroy(gameObject);
             }
 
-            if (other.GetComponent<roomSpawner>().spawned == false)
-            {
-                print("false");
-            }
+            //if (other.GetComponent<roomSpawner>().spawned == false)       // was trying to get rid of rooms that lead to walls
+            //{
+            //    print("false");
+            //}
             
             spawned = true;
             //print("OUCH");
