@@ -14,6 +14,7 @@ public class roomTemplates : MonoBehaviour
     public List<GameObject> rooms;
 
     public float waitTime;
+
     private bool spawnedBoss;
     public GameObject boss;         //make sure to add the boss sprite
 

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class playerWeapon : MonoBehaviour
 {
+ 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +16,7 @@ public class playerWeapon : MonoBehaviour
     void Update()
     {
         
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
