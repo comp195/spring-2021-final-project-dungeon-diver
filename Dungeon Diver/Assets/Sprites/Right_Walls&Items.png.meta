@@ -1516,7 +1516,7 @@ TextureImporter:
     second: Right_Walls&Items_503
   - first:
       213: 7728072861956021354
-    second: Right_Walls&Items_504
+    second: 001Boss
   - first:
       213: -3221495947393559896
     second: Right_Walls&Items_505
@@ -1594,43 +1594,43 @@ TextureImporter:
     second: Right_Walls&Items_529
   - first:
       213: -2915350444242982835
-    second: Right_Walls&Items_530
+    second: 002Boss
   - first:
       213: -5677471579102545916
     second: Right_Walls&Items_531
   - first:
       213: 1847189995466623222
-    second: Right_Walls&Items_532
+    second: 003Boss
   - first:
       213: -4779190122810411631
     second: Right_Walls&Items_533
   - first:
       213: -3485235394929296251
-    second: Right_Walls&Items_534
+    second: 004Boss
   - first:
       213: 6088060128944204513
     second: Right_Walls&Items_535
   - first:
       213: -1013931631662922624
-    second: Right_Walls&Items_536
+    second: 005Boss
   - first:
       213: 5971853109208613583
     second: Right_Walls&Items_537
   - first:
       213: 3976081973199984584
-    second: Right_Walls&Items_538
+    second: 006Boss
   - first:
       213: -1472226918367156208
     second: Right_Walls&Items_539
   - first:
       213: -3378881789841632000
-    second: Right_Walls&Items_540
+    second: 007Boss
   - first:
       213: -71695375079629154
     second: Right_Walls&Items_541
   - first:
       213: 7833974400490348317
-    second: Right_Walls&Items_542
+    second: 008Boss
   - first:
       213: -7772059536802361975
     second: Right_Walls&Items_543
@@ -12448,27 +12448,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right_Walls&Items_501
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66c68b12859214f4399f59e5c81f37f7
-      internalID: 8759753692835565295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Right_Walls&Items_502
       rect:
         serializedVersion: 2
@@ -12511,13 +12490,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right_Walls&Items_504
+      name: 001Boss
       rect:
         serializedVersion: 2
         x: 16
-        y: 128
-        width: 16
-        height: 16
+        y: 112
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -12527,321 +12506,6 @@ TextureImporter:
       bones: []
       spriteID: 0483fbd25ac29ac419645d5480379eb7
       internalID: 7728072861956021354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_505
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b120362ef9f2a7145aacb4056fc58f52
-      internalID: -3221495947393559896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_506
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 283a015073d8f2e42a1144040d745ecc
-      internalID: -9127866922744161176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_507
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09b4754d337831647b797bc4890246bd
-      internalID: -3967088561843729786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_508
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b99a36ed6e7609344a9fab104edb4782
-      internalID: 7965164403771131053
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_509
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4e8b14094db23d41939f5fdee68c82e
-      internalID: 8754456933022142271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_510
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dffc5bc62232fbb4e8dfe47b5229b845
-      internalID: 9151900419474313173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_511
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a8aa11a104c19c43883304d8dc9bbaa
-      internalID: -177322355510436713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_512
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a51f30b668570b4ba747915491d26d5
-      internalID: -7443526382850561956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_513
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 613368456fabe1d4787f02996e2340c6
-      internalID: 2865352088097831736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_514
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a66c1c3c381c194bb9dc0add56545ee
-      internalID: 4272437799364145393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_515
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2e9cfde88d3021458bd8aeecff7fb6c
-      internalID: 1097430128819752957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_516
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ed6d6915d8a315409adca234fa6527d
-      internalID: 8745695886902760327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_517
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f1d33eecffd1884bbdeeb99ca172bdf
-      internalID: -7951576873467990084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_518
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae81b740a75d5ac4b8ed0b9a7d5a1c6e
-      internalID: 6283260010543035804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_519
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1816a7ada3121714cb30f5cf1ec4de88
-      internalID: -3062150343293113842
       vertices: []
       indices: 
       edges: []
@@ -13015,55 +12679,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right_Walls&Items_528
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1ee6ea22347cfc4aad17f67380329d4
-      internalID: -9057877697825305768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_529
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d450927726641784096e698eb0e3d2aa
-      internalID: 8821452893195663693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_530
+      name: 002Boss
       rect:
         serializedVersion: 2
         x: 48
         y: 112
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13078,34 +12700,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right_Walls&Items_531
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22fa94b319cad94438db3f29b6333418
-      internalID: -5677471579102545916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_532
+      name: 003Boss
       rect:
         serializedVersion: 2
         x: 80
         y: 112
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13120,34 +12721,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right_Walls&Items_533
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ecfc85bb068103c42ad3bcf0eb4eedd0
-      internalID: -4779190122810411631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_534
+      name: 004Boss
       rect:
         serializedVersion: 2
         x: 112
         y: 112
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13162,34 +12742,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right_Walls&Items_535
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8029ce17a5a239d478d82cf9257b2092
-      internalID: 6088060128944204513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_536
+      name: 005Boss
       rect:
         serializedVersion: 2
         x: 144
         y: 112
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13204,34 +12763,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right_Walls&Items_537
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cebfe403821fc2f45943fe079f6cdb3b
-      internalID: 5971853109208613583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_538
+      name: 006Boss
       rect:
         serializedVersion: 2
         x: 176
         y: 112
-        width: 16
-        height: 16
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13246,34 +12784,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right_Walls&Items_539
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb73e3fcda152bb418c47658c5a1899e
-      internalID: -1472226918367156208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_540
+      name: 007Boss
       rect:
         serializedVersion: 2
         x: 208
         y: 112
-        width: 16
-        height: 16
+        width: 32
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13288,34 +12805,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right_Walls&Items_541
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65bbb816537258d41973a75e1b25c8db
-      internalID: -71695375079629154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_542
+      name: 008Boss
       rect:
         serializedVersion: 2
         x: 240
         y: 112
-        width: 16
-        height: 16
+        width: 31
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13325,27 +12821,6 @@ TextureImporter:
       bones: []
       spriteID: 49cd4a083853dac4b988f866d0497220
       internalID: 7833974400490348317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_Walls&Items_543
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c20c8df2add6c541a6e45b5b5efe395
-      internalID: -7772059536802361975
       vertices: []
       indices: 
       edges: []
