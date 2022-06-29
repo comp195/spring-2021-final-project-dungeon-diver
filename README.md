@@ -21,3 +21,4 @@ You play as a ... who bravely enters a dungeon in order to ...
 ## Notes
 
 * This project will be made in Unity.
+* The Presentation folder contains a powerpoint and poster I used to present my project.
